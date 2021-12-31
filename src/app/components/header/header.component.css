@@ -1,4 +1,26 @@
-header {
+ul{
+  margin: 0;
+  padding: 5px;
+  list-style: none;
+  background-color: #003542;
+}
+
+ul li{
+  display: inline-block;
+  width: 70px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+ul li a:hover{
+  text-decoration: underline;
+}
+
+
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
